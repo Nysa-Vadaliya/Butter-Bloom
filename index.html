@@ -1,3 +1,7 @@
+<!--Nysa Vadaliya
+FOundations of COmputer Science 2A
+4/29/25
+xtra: made an alert button-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,15 +12,15 @@
 </head>
 <body>
 
-<!-- Navbar -->
+<!--Navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container">
     <a class="navbar-brand" href="#">Butter & Bloom</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"> 
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ms-auto">
+    <div class="collapse navbar-collapse" id="menu"> <!--collapses the navbar on a mobile screen-->
+      <ul class="navbar-nav ms-auto"> 
         <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
@@ -26,9 +30,9 @@
   </div>
 </nav>
 
-<!-- Hero -->
+<!-- banner -->
 <div id="top" class="d-flex align-items-center justify-content-center text-center bg-dark" 
-style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-12-06-36-PM.png') no-repeat center center/cover; height: 100vh;">
+style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-12-06-36-PM.png') no-repeat center center/cover; height: 100vh;"> <!--makes the bg show up once, centered, and stretched accross the whole screen-->
 <div class="display-3 text-white">
   <h1>Butter & Bloom</h1>
   <p>Fresh and Sweet Every Day!</p>
@@ -36,14 +40,14 @@ style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-1
 </div>
 </div>
 
-<!-- About -->
+<!--about -->
 <section id="about" class="py-7">
   <div class="container">
     <div class="row align-items-center h-100">
       <div class="col-md-6">
         <img src="ourteam.jpeg" class="img-fluid rounded" style="max-width: 75%; height: 350px;" alt="Bakery">
       </div>
-      <div class="col-md-6" style="max-width: 75%; height: 350px;">
+      <div class="col-md-6" style="max-width: 75%; height: 350px;">  <!--used grid system-->
         <h2>About Us</h2>
         <p class="fs-5 fs-md-4 fs-lg-3">At Butter & Bloom, we believe that every day deserves a little sweetness. Our bakery is built on the idea that fresh, handmade treats can bring joy to any moment. From soft, buttery croissants to beautiful custom cakes, everything we create is made with care, quality ingredients, and a lot of heart. Whether you're celebrating a big occasion or just stopping by for a morning pastry, we’re here to make your day a little brighter — one delicious bite at a time.Come visit us!</p>
       </div>
@@ -51,12 +55,12 @@ style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-1
   </div>
 </section>
 
-<!-- Shop -->
-<section id="shop" class="py-5 bg-light">
+<!--Shop/ SPCIALS -->
+<section id="shop" class="py-5 bg-light"> 
   <div class="container">
     <h2 class="text-center mb-4">Our Treats</h2>
 
-    <!-- Carousel -->
+    <!--Carousel-->
     <div id="slides" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -77,9 +81,9 @@ style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-1
       </button>
     </div>
 
-    <!-- Cards -->
+    <!--Cards-->
     <div class="row mt-4">
-      <div class="col-md-4 mb-3">
+      <div class="col-md-4 mb-3"> <!--used grid system-->
         <div class="card">
           <img src="cakecard.jpeg" class="card-img-top" alt="Cake">
           <div class="card-body">
@@ -90,7 +94,7 @@ style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-1
         </div>
       </div>
 
-      <div class="col-md-4 mb-3">
+      <div class="col-md-4 mb-3"> <!--used grid system-->
         <div class="card">
           <img src="pastrycard.jpeg" class="card-img-top" alt="Pastries">
           <div class="card-body">
@@ -101,7 +105,7 @@ style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-1
         </div>
       </div>
 
-      <div class="col-md-4 mb-3">
+      <div class="col-md-4 mb-3"> <!--used grid system-->
         <div class="card">
           <img src="breadcard.jpeg" class="card-img-top" alt="Bread">
           <div class="card-body">
@@ -116,15 +120,15 @@ style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-1
   </div>
 </section>
 
-<!-- Contact -->
+<!--Cntact INFO-->
 <section id="contact" class="py-5">
   <div class="container">
     <h2 class="text-center mb-4">Get In Touch</h2>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6"> <!--used grid system-->
         <form>
           <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Your Name">
+            <input type="text" class="form-control" placeholder="Your Name"> <!--fill in the box text boxes with placeholders-->
           </div>
           <div class="mb-3">
             <input type="email" class="form-control" placeholder="Your Email">
@@ -135,8 +139,8 @@ style="background: url('https://i.postimg.cc/d02cYVgK/Screenshot-2025-04-27-at-1
           <button type="submit" class="btn btn-primary">Send</button>
         </form>
       </div>
-      <div class="col-md-6">
-        <div class="alert alert-success">
+      <div class="col-md-6"> <!--used grid system-->
+        <div class="alert alert-success"> <!--alert button-->
           Visit us downtown! Fresh every day!
         </div>
       </div>
